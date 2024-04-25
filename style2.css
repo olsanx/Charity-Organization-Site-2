@@ -246,10 +246,7 @@ body {
 
 @media (max-width: 768px) {
     .projects {
-      margin-top:470px;
-      font-size: 50px ;
-      font-weight: 700;
-      letter-spacing: 2px;
+     display: none;
     }
     .background-image {
       height: 250px;

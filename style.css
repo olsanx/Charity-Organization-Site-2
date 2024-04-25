@@ -473,12 +473,6 @@ hr.thin {
         padding: 10px;
     }
 }
-
-@media (max-width: 540px) {
-    #title {
-        margin-bottom: -67%;
-    }
-
     #vision {
         margin-bottom: -2%;
     }
@@ -493,6 +487,15 @@ hr.thin {
         padding: 110px 20px 0 0;
     }
 
+}
+
+@media (max-width: 414px) {
+    #title {
+        margin-bottom: -1300%;
+    }
+    #middle {
+        margin-top: -599%;
+    }
 }
 
 @media (max-width: 437px) {
@@ -624,7 +627,6 @@ hr.thin {
         padding: 80px 60px 0 0;
     }
 
-
     .name-role {
         font-size: 16px;
         color: #161515;
@@ -716,6 +718,9 @@ hr.thin {
     .vision-header {
         font-size: 20px !important;
     }
+}
+@media (max-width: 520px) {
+    #title
 }
 
 @media (max-width: 280px) {
